@@ -1,0 +1,17 @@
+{
+  "name": "node-backend",
+  "version": "1.0.0",
+  "description": "a backend learning from youtube channel chai aur code",
+  "keywords": [
+    "javascript",
+    "backend",
+    "chai"
+  ],
+  "license": "ISC",
+  "author": "Yash Bharda",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
