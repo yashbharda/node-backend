@@ -2,13 +2,14 @@
 import dotenv from "dotenv";
 import connectDB from "./db/index.js";
 import dns from "dns";
-import { log } from "console";
+import app from './app.js'
 
 dns.setServers(["8.8.8.8", "1.1.1.1"]);
 
 dotenv.config({
   path: "./env",
 });
+
 connectDB()
   .then(() => {
     app.listen(process.env.PORT || 8000, () => {
