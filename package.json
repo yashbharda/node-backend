@@ -15,6 +15,7 @@
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "devDependencies": {
+    "@types/node": "^26.6.4",
     "nodemon": "^3.1.14",
     "prettier": "^3.9.9"
   },
